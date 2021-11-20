@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running main part"
+    return "ARUNAVA NAG CREATED ME AT 6:30PM ON 20NOV2021.. I AM IN MAIN.PY AND NOT APP.PY"
 
 port = int(os.getenv("PORT", 5001))
 
